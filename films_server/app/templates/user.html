@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            {% if current_user.role == 1 %}
+            <div class="col-md-auto">
+                <h1>{{ user.username }}</h1>
+            </div>
+
+            <div class="col-md-auto">
+                {% if user.profile_status == 1 %}
+                <h6>[{{ info.role }}][{{ info.profile_status }}]</h6>
+                <div class="col-md-auto text-center">
+                    <form action="/block_user" method="post" id="block-form">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                        <input type="hidden" name="user_id" value="{{ user.id }}"/>
+                        <a class="text-dark" href="#" id="block-user">Заблокировать</a>
+                    </form>
+                </div>
+
+                {% else %}
+                <h6>[{{ info.role }}][{{ info.profile_status }}]</h6>
+                <div class="col-md-auto text-center">
+                    <form action="/unblock_user" method="post" id="unblock-form">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                        <input type="hidden" name="user_id" value="{{ user.id }}"/>
+                        <a class="text-dark" href="#" id="unblock-user">Разблокировать</a>
+                    </form>
+                </div>
+                {% endif %}
+            </div>
+
+            {% else %}
+            <h1>{{ user.username }}</h1>
+            {% endif %}
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="user_created_on">Регистрация: {{ moment(user.created_on).format('LLLL') }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="user_last_seen">Последний вход:
+                    {{ moment(user.last_seen).format('LLLL') }}</p>
+            </div>
+        </div>
+
+        <div class="row top-buffer">
+            <table class="table table-bordered text-center">
+                <thead>
+                <tr>
+                    <th width="50%">Запрос</th>
+                    <th width="50%">Дата</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in history %}
+                <tr>
+                    <td>{{ item.srt }}</td>
+                    <td>{{ moment(item.data).format('LLLL') }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}

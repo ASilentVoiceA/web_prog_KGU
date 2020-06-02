@@ -1,37 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4a6c1b6-5c2e-43e6-a2db-00a647573370" name="Default Changelist" comment="" />
+    <list default="true" id="2f16b729-12c6-4296-9758-e2c47ce018ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1aOCQjsf26WBCtPwFn32kxC27wj" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="last" />
+                    <option name="lastUsedInstant" value="1591116033" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1591116032" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectId" id="1catgEGVFTU9Df0AlpiAqmEg7qP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/Scripts/conda.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="site" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\bbb\films_server" />
+      <recent name="G:\bbb\films_server\app" />
+      <recent name="G:\bbb\nginx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.wsgi (1)">
+    <configuration name="wsgi (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bbb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/films_server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/films_server/wsgi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -40,9 +105,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bbb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/film_server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\bbb\film_server\wsgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.wsgi (1)" />
+      <item itemvalue="Python.wsgi" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.server" />
+        <item itemvalue="Python.wsgi (1)" />
+        <item itemvalue="Python.wsgi" />
       </list>
     </recent_temporary>
   </component>
@@ -51,42 +155,86 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4a6c1b6-5c2e-43e6-a2db-00a647573370" name="Default Changelist" comment="" />
-      <created>1586597239213</created>
+      <changelist id="2f16b729-12c6-4296-9758-e2c47ce018ba" name="Default Changelist" comment="" />
+      <created>1590778640319</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586597239213</updated>
+      <updated>1590778640319</updated>
+      <workItem from="1590778643178" duration="3897000" />
+      <workItem from="1590782566093" duration="5730000" />
+      <workItem from="1590816096641" duration="29129000" />
+      <workItem from="1590856941091" duration="2283000" />
+      <workItem from="1590859769728" duration="12828000" />
+      <workItem from="1590909347147" duration="7469000" />
+      <workItem from="1590937111681" duration="305000" />
+      <workItem from="1590984579678" duration="43575000" />
+      <workItem from="1591112814294" duration="1744000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586600059061">
+    <state x="552" y="178" key="#Docker" timestamp="1590782632688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Docker/0.0.1920.1040@0.0.1920.1040" timestamp="1590782632688" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590782633393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590782633393" />
+    <state x="711" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590786058916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590786058916" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591038974816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591038974816" />
+    <state width="938" height="275" key="GridCell.Tab.0.bottom" timestamp="1591038977372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591038977372" />
+    <state width="938" height="275" key="GridCell.Tab.0.center" timestamp="1591038977372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591038977372" />
+    <state width="938" height="275" key="GridCell.Tab.0.left" timestamp="1591038977372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591038977372" />
+    <state width="938" height="275" key="GridCell.Tab.0.right" timestamp="1591038977372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591038977372" />
+    <state x="328" y="18" key="SettingsEditor" timestamp="1591117454149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586600059061" />
-    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1586598329818">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="328" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591117454149" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590986008662" />
+    <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1590924827791">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586598329818" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586600128655">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="668" y="95" width="583" height="849" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590924827791" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591035541970">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586600128655" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586600128654">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586600128654" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586600128653">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586600128653" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586600128655">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586600128655" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1586599112386">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586599112386" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591035541970" />
   </component>
 </project>

@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  films_server:
+    build: ./films_server
+    container_name: films_server
+    restart: always
+    expose:
+      - 5000
+    volumes:
+      - "static_volume:/home/films/app/static:ro"
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - "static_volume:/var/www/static:ro"
+    depends_on:
+      - films_server
+
+volumes:
+  static_volume:

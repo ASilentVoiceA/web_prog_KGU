@@ -1,0 +1,84 @@
+.py-5 {
+    padding-top: 5rem !important;
+}
+
+.top-buffer {
+    margin-top: 5vh !important;
+}
+
+.top-bottom {
+    margin-bottom: 5vh !important;
+}
+
+.height-full {
+    height: 100% !important;
+}
+
+.row-center {
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 10px !important;
+    background-color: #597ba0 !important;
+    color: #ffffff !important;
+}
+
+.white-background {
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+}
+
+.form-control {
+    width: 560px !important;
+}
+
+#main-search {
+    height: 50vh;
+}
+
+.card-header {
+    min-height: 15vh !important;
+    height: 100% !important;
+}
+
+.modal-content-custom {
+    min-height: 32vh !important;
+}
+
+#poster {
+    width: 150px;
+    height: 225px;
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #fff;
+    z-index: 1001;
+}
+
+.preloader__image {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: visible;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -150px;
+    background: url('../img/Spinner-2s-350px.svg') no-repeat 50% 50%;
+}
+
+.preloader {
+    display: none;
+}
+
+#search-button{
+    width: 150px;
+}

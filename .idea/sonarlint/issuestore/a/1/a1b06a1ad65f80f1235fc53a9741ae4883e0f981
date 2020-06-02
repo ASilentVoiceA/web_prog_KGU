@@ -1,0 +1,6 @@
+
+jpython:S1008"LRename method "toNow" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ΉΙΡ8Ν©ώ¦.
+lpython:S100C"NRename method "valueOf" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Χ£‰Ά8Ν©ώ¦.
+mpython:S1003"ORename method "fromTime" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÿΎεΝ8Ν©ώ¦.
+ppython:S100;"MRename method "toTime" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ΰ®αρύÿÿÿÿ8Ν©ώ¦.
+qpython:S1000"NRename method "fromNow" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Φ‡νΧϋÿÿÿÿ8Ν©ώ¦.

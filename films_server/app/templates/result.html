@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="pb-5 row justify-content-center">
+            <div class="d-flex flex-column">
+                <form action="/" class="form-inline " method="post" role="form">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <input class="form-control" name="movie_name" placeholder="Название фильма" type="text">
+                        </div>
+                    </div>
+                    <div class="col-smn">
+                        <div class="form-group">
+                            <button class="btn btn-block" type="submit" id="search-button">Поиск</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="pb-5 row justify-content-center">
+            {% for movie in movie_list %}
+            <div class="col-md-4 top-bottom">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header text-center align-items-center d-flex justify-content-center">
+                        <h4 class="my-0 font-weight-normal">{{ movie.title }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <img id="poster" class="mx-auto d-block center lazy lazyload"
+                             src="static/img/Spinner-1s-225px.svg"
+                             data-src="{{ movie.image }}"/>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Рейтинг: {{ movie.vote_average }}</li>
+                            <li>Дата выхода: {{ movie.release_date }}</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block"
+                                onclick="window.open('https://www.themoviedb.org/movie/{{ movie.id }}?language=ru-RU')">
+                            Выбрать фильм
+                        </button>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
