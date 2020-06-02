@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f16b729-12c6-4296-9758-e2c47ce018ba" name="Default Changelist" comment="" />
+    <list default="true" id="2f16b729-12c6-4296-9758-e2c47ce018ba" name="Default Changelist" comment="финальная часть">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +75,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -140,8 +145,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.wsgi (1)" />
       <item itemvalue="Python.wsgi" />
+      <item itemvalue="Python.wsgi (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -170,6 +175,14 @@
       <workItem from="1590984579678" duration="43575000" />
       <workItem from="1591112814294" duration="1744000" />
     </task>
+    <task id="LOCAL-00001" summary="финальная часть">
+      <created>1591117896662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591117896663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +202,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="финальная часть" />
+    <option name="LAST_COMMIT_MESSAGE" value="финальная часть" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Docker" timestamp="1590782632688">
@@ -228,6 +246,10 @@
     </state>
     <state x="328" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591117454149" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590986008662" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1591117933134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591117933134" />
     <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1590924827791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
